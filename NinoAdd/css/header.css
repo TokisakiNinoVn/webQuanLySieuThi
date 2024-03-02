@@ -1,0 +1,164 @@
+
+
+.navbar {
+    width: 100%;
+    height: 64px;
+    background-color: rgb(236, 236, 236);
+    padding: 0px 20px;
+    display: flex;
+    align-items: center;
+
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+}
+
+.navbar-inner {
+    width: 100%;
+    max-width: 1120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 10px;
+    margin: auto;
+}
+
+img.logo_store_navbar {
+    height: 64px;
+    width: auto;
+}
+
+.nav_menu_options, .ul_boxlogin {
+    display: flex;
+    padding: 0px 10px;
+}
+
+.nav_menu_options li {
+    padding: 0px 10px;
+    display: flex;
+    align-items: center;
+}
+.nav_menu_options li a {
+    display: flex;
+    align-items: center;
+}
+.nav_menu_options li a:hover {
+    color: #4a3c97;
+}
+.nav_menu_options li a ion-icon{
+    padding-right: 5px;
+}
+
+
+
+.search_box {
+    padding: 3px 10px;
+    border-radius: 5px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    /* background-color: rgb(255, 255, 255); */
+    border: 1px solid rgba(0, 0, 0, 0.507)
+}
+.search_box ion-icon {
+    padding-right: 5px;
+    font-size: 18px;
+}
+input {
+    padding: 5px 5px;
+    background-color: unset;
+    width: 100%;
+}
+
+
+
+.box_icon_login {
+    display: flex;
+    align-items: center;
+}
+.box_icon_login ion-icon {
+    font-size: 30px;
+    cursor: pointer;
+}
+.box_icon_login ion-icon:hover {
+    color: blueviolet;
+}
+
+.box_login {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 370px;
+    height: 520px;
+    padding: 20px 30px;
+    border-radius: 10px;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    border: 2px solid rgb(238,174,202);
+}
+.box_login_child {
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+.ul_boxlogin {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 10px;
+    font-size: 14px;
+    margin-top: 50px;
+}
+.ul_boxlogin li {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: antiquewhite;
+    border-radius: 4px;
+    width: 100%;
+    padding: 3px 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.ul_boxlogin li ion-icon{
+    font-size: 24px !important;
+    padding-right: 5px;
+}
+
+img.logo_store {
+    width: 200px;
+    border: 2px double rgb(53, 32, 245);
+    border-radius: 50%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.name_store {
+    /* font-size: 20px; */
+    font-weight: bold;
+    margin-top: 10px;
+    text-transform: uppercase;
+    font-style: italic;
+}
+.close_login_button {
+    position: absolute;
+    top: 10px;
+    right: 0px;
+    font-size: 30px;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 50%;
+    background-color: rgb(198, 241, 241);
+}
+.close_login_button:hover {
+    background-color: rgb(170, 156, 162);
+}

@@ -1,0 +1,191 @@
+.banner {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    .main_banner {
+        max-width: 1120px;
+    }
+}
+
+
+div.list_items {
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    // margin-top: 100px;
+
+    .main_list_item {
+        max-width: 1120px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: flex-start;
+
+        .one_item {
+            width: 240px;
+            height: 370px;
+            margin: 10px;
+            border-radius: 8px;
+            padding: 10px;
+            background-color: rgba(235, 235, 235, 0.336);
+
+            .item {
+                width: 100%;
+
+                .limited_img {
+                    width: 100%;
+                    height: 200px;
+                    overflow: hidden;
+                    margin-bottom: 20px;
+                    
+                    img.image_item {
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+                        border-radius: 8px;
+                        cursor: pointer;
+                        z-index: 5;
+
+                        &:hover {
+                            transform: scale(1.1);
+                            transition: 0.5s;
+                        }
+                    }
+                
+                }
+            }
+
+            &:hover {
+                transition: 0.5s;
+                transform: box-shadow(rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px);
+                box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+            }
+
+            .xemchitiet {
+                margin-top: 20px;
+                width: 100%;
+                padding: 5px;
+
+                &:hover {
+                    background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(0,117,255,.5) 100%);
+                    transition: 0.5s;
+                }
+            }
+        }
+    }
+}
+
+.about_item {
+    min-height: 100vh;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    
+    #hd {
+        // display: flex;
+        // flex-direction: column;
+        // justify-content: center;        // align-items: center;
+        background-color: rgb(245, 244, 244);
+        padding: 40px;
+        height: 600px;
+        width: 70vw;
+
+        .abouts_sp {
+            
+            .content_sanpham {
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+
+                .so_luong {
+                    width: 80px;
+                    padding: 5px 10px;
+                }
+
+                #ghd {
+                    font-size: 30px;
+                }
+            }
+
+            .akjhw {
+                width: 100%;
+                display: flex;
+                margin-top: 20px;
+                justify-content: space-around;
+
+                button {
+                    border: unset;
+                    width: 40%;
+                    height: 60px;
+                    background-color: rgb(241, 233, 223);
+                    font-size: 17px;
+                    font-family: 'Tinos', serif;
+                    cursor: pointer;
+
+                    &:hover {
+                        background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(0,117,255,.5) 100%);
+                        transition: 0.5s;
+                    }
+                }
+                button.add_to_card {
+                    padding: 5px 20px;
+                    // border-radius: 5px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+
+                    ion-icon {
+                        margin-right: 10px;
+                    }
+                }
+                button.buy_now {
+                    // width: 40%;
+                    padding: 5px 20px;
+                    // background-color: rgb(241, 233, 223);
+                    // border-radius: 5px;
+    
+                    // &:hover {
+                    //     background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(0,117,255,.5) 100%);
+                    //     transition: 0.5s;
+                    // }
+                }
+            }
+
+            .quiy_wiue {
+                margin: 20px auto 10px 0px;
+            }
+            input.so_luong {
+                background-color: rgba(209, 191, 212, 0.589);
+                border-radius: 5px;
+                padding: 5px 10px;
+            }
+            .akjhw_iqu {
+                margin: 10px auto 10px 0px;
+            }
+
+            div.back_to_home {
+                margin-top: 20px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                
+                .link_to_home {
+                    width: 70%;
+                    padding: 10px 20px;
+                    background-color: rgb(241, 233, 223);
+                    border-radius: 5px;
+                    text-align: center;
+                    cursor: pointer;
+
+                    &:hover {
+                        background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(0,117,255,.5) 100%);
+                        transition: 0.5s;
+                    }
+                }
+            }
+        }
+    }
+
+}

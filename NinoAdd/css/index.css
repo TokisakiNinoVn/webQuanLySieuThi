@@ -1,0 +1,31 @@
+/* 
+.list_items {
+
+} */
+
+.image_item {
+    height: 200px;
+    width: auto;
+}
+
+/* .one_item {
+
+} */
+
+/* Chi tiet san pham */
+.img_chitiet {
+    width: 400px;
+    /* padding: 20px; */
+    /* border: 1px solid rgb(190, 70, 226); */
+    /* border-radius: 20px; */
+    margin-right: 40px;
+}
+
+.img_chitiet:hover {
+    transition: 0.5s;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(181, 59, 197, 0.616) 0px 8px 16px -8px;
+}
+
+.abouts_sp {
+    display: flex;
+}

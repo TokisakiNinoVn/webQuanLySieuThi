@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-family: 'Tinos', serif;
+}
+body {
+    position: relative;
+}
+ul, li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+input {
+    outline: none;
+    border: none;
+}
+
+input:focus {
+    outline: none;
+}
+
+.active {
+    display: flex !important;
+}

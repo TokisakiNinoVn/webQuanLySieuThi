@@ -1,0 +1,29 @@
+
+div.loai_sanpham {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    background-color: white;
+
+    position: sticky;
+    top: 60px;
+    z-index: 9999;
+}
+
+.main_loai_sanpham {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1120px;
+}
+.main_loai_sanpham li a {
+    margin: 0px 10px;
+    width: max-content;
+    padding: 5px 10px;
+}
+
+.main_loai_sanpham li a:hover {
+    font-weight: bold;
+}
